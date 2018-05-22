@@ -1,14 +1,16 @@
 # Creando objetos
 
-# Creando objetos
-
 Cuando queremos **acceder a un atributo** de una determinada clase debemos hacerlo utilizando la siguiente sintáxis:
 
+```java
 nombreObjeto.nombreAtributo;
+```
 
 Del mismo modo procederemos cuando a lo que queramos **acceder** sea al **método** de un objeto:
 
+```java
 nombreObjeto.nombreMetodo(parámetros);
+```
 
 Lo anterior estará permitido siempre y cuando tengamos el control de acceso adecuado para el atributo o método o cuestión. Sobre el control de acceso os hablaré un poco mas adelante en este módulo, de momento vamos a considerar que no existen estas limitaciones.
 
@@ -22,7 +24,9 @@ En el ejemplo anterior tenemos 4 clases Perro, Pato, Cliente y Lanzador. Vamos a
 
 ¿Y si sobre el ejemplo anterior quisiésemos acceder al nombre del primer perro de la cliente Vanesa? Pues haríamos lo siguiente:
 
+```java
 String nombreDelPrimerPerroDeVanesa = vanesa.perros.get(0).nombre;
+```
 
 La sentencia anterior es un poco peligrosa y evitaremos utilizarla si antes no hacemos una serie de comprobaciones o incluimos la misma en un bloque try-catch para controlar las excepciones.
 

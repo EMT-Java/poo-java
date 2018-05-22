@@ -1,7 +1,5 @@
 # Ámbito
 
-# Ámbito
-
 Las variables y constantes tienen asociado un [ámbito](https://es.wikipedia.org/wiki/%C3%81mbito_(programaci%C3%B3n)). Simplificando, el ámbito indica donde existen y por tanto pueden utilizarse. A continuación voy a tratar de explicarlo con un extracto de código.
 
 
@@ -12,27 +10,6 @@ En el código que tenemos en la imagen anterior en la línea 6 declaramos la var
 
 ## Pregunta Verdadero-Falso
 
-### Pregunta 1
+<quiz name=""><question><p>En el ejemplo de código anterior, podría sustituir la línea 10 por System.out.println(variableClase); ya que la variable variableClase es accesible desde la línea 10</p><answer correct>Verdadero</answer><answer>Falso</answer><explanation>variableClase es accesible desde toda la clase Modulo2Ambito y la línea 10 está dentro de la clase por lo que es accesible.</explanation></question><question><p>En el ejemplo de código anterior, podría añadir al final de la línea 6 System.out.println(variableBucle); ya que la variable variableBucle es accesible desde la línea 6</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>variableBucle solo está accesible dentro del bucle que está entre las líneas 12 y 17 por lo que no es accesible en la línea 6 y obtendríamos un error de compilación.</explanation></question></quiz>
 
-En el ejemplo de código anterior, podría sustituir la línea 10 por System.out.println(variableClase); ya que la variable variableClase es accesible desde la línea 10
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Verdadero**
-
-variableClase es accesible desde toda la clase Modulo2Ambito y la línea 10 está dentro de la clase por lo que es accesible.
-
-### Pregunta 2
-
-En el ejemplo de código anterior, podría añadir al final de la línea 6 System.out.println(variableBucle); ya que la variable variableBucle es accesible desde la línea 6
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-variableBucle solo está accesible dentro del bucle que está entre las líneas 12 y 17 por lo que no es accesible en la línea 6 y obtendríamos un error de compilación.
 

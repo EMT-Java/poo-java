@@ -1,7 +1,5 @@
 # Operadores
 
-# Operadores
-
 Se hace necesario poder realizar cálculos o tomar decisiones con los datos que manejamos, es por ello que nos surge la necesidad de disponer de operadores que nos permitan hacerlo. A continuación procedo a enumerar los operadores mas habituales:
 
 *   = Operando de asignación. Nos permite asignar un valor a una variable.
@@ -13,9 +11,9 @@ Se hace necesario poder realizar cálculos o tomar decisiones con los datos que 
 *   == Operando de comparación. Devuelve verdadero en caso de que las variables involucradas sean iguales.
 *   != Operando de comparación. Devuelve verdadero en caso de que las variables involucradas sean distintas.
 *   < Operando de comparación. Devuelve verdadero en caso de que la variable de la izquierda sea menor a la de la derecha y devuelve falso en cualquier otra situación.
-*   > Operando de comparación. Devuelve verdadero en caso de que la variable de la derecha sea menor a la de la izquierda y devuelve falso en cualquier otra situación.
+*   \> Operando de comparación. Devuelve verdadero en caso de que la variable de la derecha sea menor a la de la izquierda y devuelve falso en cualquier otra situación.
 *   <=Operando de comparación. Devuelve verdadero en caso de que la variable de la izquierda sea menor o igual a la de la derecha y devuelve falso en cualquier otra situación.
-*   >=Operando de comparación. Devuelve verdadero en caso de que la variable de la derecha sea menor o igual a la de la izquierda y devuelve falso en cualquier otra situación.
+*   \>=Operando de comparación. Devuelve verdadero en caso de que la variable de la derecha sea menor o igual a la de la izquierda y devuelve falso en cualquier otra situación.
 *   &&: Equivale al operador lógico AND. Devuelve true en caso de que las 2 variables involucradas valgan true, en otro caso devuelven false.
 *   ||: Equivale al operador lógico OR. Devuelve true en caso de que al menos 1 de las 2 variables involucradas valga true, en otro caso devuelve false.
 *   variable++ Evalúa el valor de la variable en cuestión y posteriormente le suma 1

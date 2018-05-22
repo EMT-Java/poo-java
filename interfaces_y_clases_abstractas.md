@@ -1,7 +1,5 @@
 # Interfaces y clases abstractas
 
-# Interfaces y clases abstractas
-
 Ya hemos hablado con anterioridad de las **clases abstractas** (capítulo polimorfismo), en este capítulo profundizaremos un poco mas sobre ellas y además hablaremos por primera vez de las **interfaces**.
 
 ## Interfaces
@@ -10,21 +8,27 @@ Cuando alguien te pregunta que es una interface suele decirse que es un contrato
 
 Vamos a ver la sintaxis
 
+```java
 public interface NombreInterface{   
     sentencias;  
 }
+```
 
 Y cuando una clase implementa una interface la sintaxis es
 
+```java
 class NombreClase implements NombreInterface{  
     sentencias;  
 }
+```
 
 Una clase puede implementar 0 o varias interfaces al mismo tiempo. En caso de implementar varias interfaces separaremos sus nombres por comas. El hecho de poder implementar varias interfaces al mismo tiempo nos sirve para esquivar la limitación de que una clase solo pueda heredar de una única clase. En caso de que una clase extendise a otra clase y a la vez implementase 1 o varias interfaces la sintaxis sería la siguiente:
 
+```java
 class NombreClase extends SuperClase implements NombreInterface1, nombreInterface2,...{  
     sentencias;  
 }
+```
 
 Las interfaces pueden ser públicas (accesibles desde cualquier lugar) o sin modificador de acceso (accesibles desde el paquete de la interface).
 
@@ -36,9 +40,11 @@ Una interface puede contener atributos que a todos los efectos será una constan
 
 Una interface puede extender otras inferfaces, lo hará con la siguiente sintaxis
 
+```java
 public interface NombreInterface extends NombreOtraInterface1, NombreOtraInterface2,...{  
     sentencias;  
 }
+```
 
 Si, es correcto extends, no me he equivocado.
 
@@ -46,15 +52,19 @@ Si, es correcto extends, no me he equivocado.
 
 La sintaxis necesaria para crear una clase abstracta es la siguiente
 
+```java
 abstract class NombreClase{  
     sentencias;  
 }
+```
 
 Las clases abstractas pueden incluir o no **métodos abstractos**. Las clases abstractas no pueden ser instanciadas pero si pueden ser usadas como subclases.
 
 Un método abstracto es un método que está declarado pero no está implementado. En su sintaxis se suprimen las llaves ({}) y tras cerrar el paántesis que contiene los parámentros se pone un punto y coma.
 
+```java
 public abstract void montar();
+```
 
 Si una clase contiene un método abstracto tiene que ser obligatoriamente una clase abstracta.
 

@@ -17,9 +17,11 @@ En la definición he querido reseñar una serie de ideas clave:
 
 Ahora que tenemos una definición de lo que es una clase vamos a ver cual es la **sintaxis** de la misma.
 
+```java
 NombreClase{  
     sentencias del cuerpo de la clase  
 }
+```
 
 Cuando he definido la sintaxis de una clase he indicado que en su interior existen las _sentencias del cuerpo de la clase_, ahora voy a afinar mas. **En Java las clases**, generalmente, **están formadas por una serie de atributos, constructores y métodos**:
 

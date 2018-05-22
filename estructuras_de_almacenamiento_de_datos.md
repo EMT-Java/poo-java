@@ -1,7 +1,5 @@
 # Estructuras de almacenamiento de datos
 
-# Estructuras de almacenamiento de datos
-
 Antes de comenzar vamos a conocer la definición que de **estructura de datos** ofrece la wikipedia:
 
 > En programación, una estructura de datos es una forma particular de organizar datos en una computadora para que pueda ser utilizado de manera eficiente.

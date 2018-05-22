@@ -1,7 +1,5 @@
 # Donde encontrar mas recursos
 
-# Donde encontrar mas recursos
-
 Hasta el momento hemos añadido enlaces a distintos recursos de utilidad para aquellas cuestiones que hemos ido tratando.
 
 En este apartado el objetivo es realizar una pequeña recopilación de todos aquellos recursos que puedan resultarnos de utilidad y ampliación a curso. **NO es necesario descargar ni instalar nada de este listado** si has seguido mis instrucciones hasta la fecha.

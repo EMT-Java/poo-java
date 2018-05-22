@@ -8,9 +8,11 @@ Vamos a ver que **definición** de constructor encontramos en la wikipedia:
 
  Es decir, **el constructor nos va a permitir crear una instancia de una clase (un objeto)**. Un constructor es un método especial. Vamos a ver su sintaxis:
 
+```java
 modificadorDeAcceso NombreDeLaClase(OpcionalmenteParámetros){  
     sentencias;  
 }
+```
 
 Voy a ilustrarlo con un ejemplo:
 
@@ -20,16 +22,22 @@ Voy a ilustrarlo con un ejemplo:
 
 En la imagen anterior la clase Coche tiene 2 constructores. Un constructor vacío entre las líneas 9 y 11 y un constructor con todos sus parámetros entre las líneas 13 y 17. Por lo que podremos crear objetos de cualquiera de los 2 modos que vemos a continuación:
 
+```java
 Coche coche = new Coche();  
 Coche coche2 = new Coche( "Ford", "Grand CMAX", new Motor() );
+```
 
 **Cuando una clase no tiene escrito ningún constructor el compilador asume que la clase en cuestión tiene el constructor vacío**. Es decir, si en el ejemplo anterior suprimimos las líneas 9 a 17 sería equivalente a dejar las líneas 9 a 11 y podríamos crear objetos únicamente así:
 
+```java
 Coche coche3 = new Coche();
+```
 
 Sin embargo, si en el ejemplo anterior suprimimos las líneas 9 a 11 el único constructor que tendrá la clase será el que obliga a dar valor a todos sus atributos, es decir, sólo podríamos utilizar el siguiente modo para crear objetos:
 
+```java
 Coche coche4 = new Coche( "Ford", "Fiesta", new Motor() );
+```
 
 Antes comenté que eran métodos especiales porque si te fijas la sintaxis es igual a la de los métodos con la salvedad de que no se indica el tipo de dato que devuelve y esto es así porque un constructor siempre devuelve como tipo de dato una instancia de la propia clase.
 

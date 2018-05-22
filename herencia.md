@@ -6,7 +6,9 @@ En POO, la herencia es un mecanismo que nos permite extender las funcionalidades
 
 La sintaxis cuando queremos heredar de una clase es la siguiente:
 
-class nombreClase **extends** nombreClaseQueQueremosExtender {
+```java
+class nombreClase extends nombreClaseQueQueremosExtender {
+```
 
 Hay que indica que **solo podemos heredar de una clase a la vez**. Llamaremos **superclase** a la clase padre y **subclase** a la clase que hereda.
 

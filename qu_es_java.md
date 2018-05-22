@@ -1,7 +1,5 @@
 # ¿Qué es Java?
 
-# ¿Qué es Java?
-
 Java es un lenguaje de programación multiplataforma, de propósito general y orientado a objetos.
 
 En una frase de apenas 14 palabras hemos introducido 4 conceptos:

@@ -1,7 +1,5 @@
 # Tarea
 
-# Tarea
-
 Tu tarea una vez acabado este primer módulo consiste en:
 
 *   Descargar e instalar Netbeans

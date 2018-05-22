@@ -1,7 +1,5 @@
 # Bucles
 
-# Bucles
-
 Ha llegado el momento de hablar de los bucles y de sus distintas formas en Java.
 
 Lo primero es definir que es un bucle, en la wikipedia podemos encontrar la siguiente definición de bucle:
@@ -12,9 +10,11 @@ Lo primero es definir que es un bucle, en la wikipedia podemos encontrar la sigu
 
 Ahora que sabemos lo que es vamos a ver los distintos bucles existentes en Java. Vamos a comenzar con el bucle **for**. Su sintaxis es la siguiente:
 
+```java
 for(iniciacion; condicionFin; accionSobreIniciacion){
     sentencias;
 }
+```
 
 En iniciacion deberemos establecer el valor inicial que queremos dar a nuestra variable de control. En condicionFin deberá haber alguna condición lógica y en accionSobreIniciacion deberemos establecer que queremos que pase tras cada iteracción. En sentencias estableceremos las sentencias de código que necesitemos. No se considera una buena práctica modificar la variable de iniciación en las sentencias. Una vez mas, vamos a reforzar la explicación con un ejemplo que incluya código con el fin de facilitar la compresión.
 
@@ -62,9 +62,11 @@ for(tipoVariable nombreVariable : listaQueContieneVariablesDeTipoVariable){
 
 Una vez hemos visto las posibilidades que nos ofrece el bucle for vamos a ver los **bucles while**. Los bucles while tienen la siguiente sintaxis:
 
+```java
 while(condicion){
     sentencias;
 }
+```
 
 En un bucle while las sentencias de su interior se van a estar ejecutando siempre mientras la condición del while sea verdadera. Por ello, salvo que queramos hacer un bucle infinito, en las sentencias actuaremos sobre la variable o variables que participen en la condición. Vamos a ver un ejemplo:
 
@@ -78,9 +80,11 @@ Lo que ocurre en el código de la imagen es lo siguiente. En la línea 6 creamos
 
 En último lugar vamos a hablar de los bucles **do-while**. Estos bucles tienen la siguiente sintaxis:
 
+```java
 do{
     sentencias;
 }while(condicion);
+```
 
 Los bucles do-while son prácticamente iguales a los bucles while con la salvedad de que en un bucle do-while las sentencias contenidas dentro del mismo se van a ejecutar siempre 1 vez y luego se seguirán ejecutando mientras la condición sea verdadera. Al igual que en el caso anterior, salvo que queramos hacer un bucle infinito, en las sentencias deberemos actuar sobre la variable o variables que participen en la condición.
 

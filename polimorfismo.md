@@ -18,27 +18,7 @@ En nuestro ejemplo de herencia y polimorfismo hemos creado una clase (Mamifero) 
 
 ## Pregunta Verdadero-Falso
 
-### Pregunta 1
+<quiz name=""><question><p>Java y Javascript son el mismo lenguaje de programación. Nos referimos a Javascript como Java para tener un lenguaje mas fluido.</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>Java y Javascript son lenguajes de programación distintos. Su sintaxis es parecida al igual que ocurre entre C# y Java o entre C++ y Java.</explanation></question><question><p>En el ejemplo anterior, sería correcto escribir Gato gato = (Gato) nala;</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>No podría hacerse lo que se indica en la pregunta ya que nala es un objeto de tipo Perro que hereda de Mamifero y Gato hereda de Mamifero. En la jerarquía de clases derivan de la clase Mamifero pero a partir de ese momento son ramas distintas de la jerarquía. Si podría hacer Mamifero mamifero = (Mamifero) nala;</explanation></question></quiz>
 
-Java y Javascript son el mismo lenguaje de programación. Nos referimos a Javascript como Java para tener un lenguaje mas fluido.
 
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-Java y Javascript son lenguajes de programación distintos. Su sintaxis es parecida al igual que ocurre entre C# y Java o entre C++ y Java.
-
-### Pregunta 2
-
-En el ejemplo anterior, sería correcto escribir Gato gato = (Gato) nala;
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-No podría hacerse lo que se indica en la pregunta ya que nala es un objeto de tipo Perro que hereda de Mamifero y Gato hereda de Mamifero. En la jerarquía de clases derivan de la clase Mamifero pero a partir de ese momento son ramas distintas de la jerarquía. Si podría hacer Mamifero mamifero = (Mamifero) nala;
 

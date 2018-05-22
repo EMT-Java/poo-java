@@ -22,39 +22,6 @@ Con anterioridad ya hemos utilizado todos ellos y conforme avancemos en el curso
 
 ## Pregunta Verdadero-Falso
 
-### Pregunta 1
+<quiz name=""><question><p>Para delimitar el contenido de una clase haré uso de los corchetes []</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>Para delimitar el contenido de una clase se hace uso de las llaves {} Ocurre lo mismo con los métodos.</explanation></question><question><p>En Java al final de cada línea debo colocar un punto y coma.</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>El punto y coma solo debe colocarse al final de las sentencias. Cuando declaramos una clase o método no hay que hacerlo.</explanation></question><question><p>Para crear un vector haré uso de los corchetes []</p><answer>Verdadero</answer><answer correct>Falso</answer><explanation>Para definir un vector se usan los corchetes []</explanation></question></quiz>
 
-Para delimitar el contenido de una clase haré uso de los corchetes \[\]
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-Para delimitar el contenido de una clase se hace uso de las llaves {} Ocurre lo mismo con los métodos.
-
-### Pregunta 2
-
-En Java al final de cada línea debo colocar un punto y coma.
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-El punto y coma solo debe colocarse al final de las sentencias. Cuando declaramos una clase o método no hay que hacerlo.
-
-### Pregunta 3
-
-Para crear un vector haré uso de los corchetes \[\]
-
- Verdadero  Falso
-
-#### Retroalimentación
-
-**Falso**
-
-Para definir un vector se usan los corchetes \[\]
 

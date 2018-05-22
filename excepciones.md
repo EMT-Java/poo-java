@@ -1,7 +1,5 @@
 # Excepciones
 
-# Excepciones
-
 En Java, las excepciones son una clase ([documentación](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html "Java Exception")) que se lanza cuando ocurre un error en [tiempo de ejecución](https://es.wikipedia.org/wiki/Tiempo_de_ejecuci%C3%B3n "Tiempo de ejecución"). Es decir, no son errores de compilación de algo que hemos escrito mal y el compilador no comprende sino que son errores que ocurren mientras nuestro programa está siendo usado. Java nos ofrece la posibilidad de controlar estos errores y recuperarnos de ellos sin abortar la ejecución de nuestro programa.
 
 Vamos a ver un ejemplo:

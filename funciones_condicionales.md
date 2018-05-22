@@ -6,6 +6,7 @@ Existen 2 funciones condicionales: **if/else if/else** y **switch**.
 
 Vamos a comenzar por la estructura **if/else if/else**. En esta estructura la sintaxis es la siguiente:
 
+```java
 if(condicion){  
     sentencias;  
 }else if(condicion){  
@@ -13,6 +14,7 @@ if(condicion){
 }else{  
     sentencias;  
 }
+```
 
 De la estructura anterior es obligatorio que exista siempre el if. else if puede haber 0 o varios. else puede haber 1 o 0. Y el funcionamiento es el siguiente. Cuando el compilador llega a la condición del if y la evalúa, si la condición es verdadera ejecutará las sentencias ubicadas dentro del if y habrá terminado con la estructura if/else if/else, ya no ejecutará sentencias de otros bloques aunque estas sean verdad. Si la condición del if es falsa se evalúa la condición del else if y si es verdadera se ejecutan las sentencias ubicadas dentro, en caso de ser falsa se evalúa el siguiente else if si lo hubiera. Si la condición de algún else if fuese verdadera se ejecutarían las sentencias de su interior y ya no se evaluarían ni ejecutarían mas condiciones de toda la estructura if/else if/else. En caso de que ninguna condición del if o los else if fuese verdadera y hubiese un bloque else se ejecutarían las sentencias contenidas dentro del bloque else.
 
@@ -28,7 +30,9 @@ En la línea 22 tenemos otra condición así que se evalúa si la variable avisa
 
 Existe también la posibilidad de ejecutar esta estructura con la sintaxis:
 
+```java
 condicion?valorSiCondicionVerdadera:valorSiCondicionFalsa;
+```
 
 Vamos a ver un ejemplo que sustituiría al código comprendido entre las líneas 22 a 24 de la imagen anterior
 
@@ -42,6 +46,7 @@ Se va a escribir algo por pantalla ¿el qué? dependerá del resultado que produ
 
 Una vez vista la estructura if/else if/else vamos a continuar con la estructura **switch**. Su sintaxis es la siguiente:
 
+```java
 switch(expresión){
     case valor1:
         Sentencias;
@@ -52,6 +57,7 @@ switch(expresión){
     default:
         Sentencias;
 }
+```
 
 De la sintaxis anterior es obligatorio utilizar la primera línea y la última y debe haber al menos 1 case con sus sentencias y un break tras las sentencias. El elemento default es opcional. Como quizás resulte algo complejo de explicar teóricamente vamos a ver un ejemplo:
 

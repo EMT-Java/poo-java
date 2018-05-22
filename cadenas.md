@@ -1,18 +1,22 @@
 # Cadenas
 
-# Cadenas
-
 Hasta el momento hemos trabajado con cadenas (**String**) en alguna ocasión. Hemos mostrado por pantalla una cadena:
 
+```java
 System.out.println("Hello world!");
+```
 
 Hemos definido una constante
 
+```java
 final String CADENA = "a";// Declaramos una constante de tipo String y nombre CADENA y le asignamos el valor "a". Fíjate en que son comillas dobles.
+```
 
 y del mismo modo podríamos haber creado una variable:
 
+```java
 String texto = "Hola mundo";// Declaramos una variablede tipo String y nombre textoy le asignamos el valor "Hola mundo". Fíjate en que son comillas dobles.
+```
 
 String no es un tipo primitivo, String es una clase por lo que cada vez que hacemos uso de ella estamos creando un objeto.
 

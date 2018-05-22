@@ -1,7 +1,5 @@
 # Tarea
 
-# Tarea
-
 Tu tarea una vez acabado el segundo módulo consiste en:
 
 *   Crear un proyecto llamado Modulo2NombreApellido donde Nombre sea tu nombre y Apellido tu primer apellido. Ejemplo: Modulo2PabloRuiz

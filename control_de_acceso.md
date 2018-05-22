@@ -1,31 +1,21 @@
 # Control de acceso
 
-# Control de acceso
-
 Hasta el momento hemos visto que desde cualquier clase se puede acceder a cualquier otra clase y a cualquier atributo o método sin ningún control. Esto lo hemos hecho de este modo para facilitar la comprensión de los distintos conceptos tratados a lo largo del curso y de este modo no distraernos con cuestiones de control de acceso pero a partir de este momento vamos a hablar del **control de acceso** en clases, atributos, constructores y métodos para así empezar a desarrollar nuestros programas de un modo mas adecuado.
 
 ## Control de acceso a clases
 
 Cuando definimos una clase podemos hacerlo con la palabra reservada public, abstract, final o ninguna de los anteriores. Existe alguna otra posibilidad pero no entraremos en ella.
 
-Clase
+|Clase|Descripción|
+|:--|:--|
+|public|Una clase pública es accesible desde cualquier clase. Para ser utilizada desde otro paquete debe ser importada.|
+|abstract|Una clase abstracta es una clase destinada a que se herede de ella. No puede ser instanciada. Debe tener al menos un método abstracto.|
+|final|Una clase final es aquella que no permite que se herede de ella.|
 
-Descripción
-
-public
-
-Una clase pública es accesible desde cualquier clase. Para ser utilizada desde otro paquete debe ser importada.
-
-abstract
-
-Una clase abstracta es una clase destinada a que se herede de ella. No puede ser instanciada. Debe tener al menos un método abstracto.
-
-final
-
-Una clase final es aquella que no permite que se herede de ella.
 
 Así podemos combinar las distintas palabras clave:
 
+```java
 public class Ejemplo1{
 
 class Ejemplo2{
@@ -37,6 +27,8 @@ abstract class Ejemplo4{
 public final class Ejemplo5{
 
 final class Ejemplo6{
+```
+
 
 En las 6 líneas anteriores tenemos todas las combinaciones con las que vamos a trabajar en el curso.
 
@@ -56,21 +48,11 @@ La clase ejemplo6 será accesible únicamente desde el paquete en que sea defini
 
 Existen las siguientes palabras clave cuando queremos controla el acceso a las variables miembro de nuestras clases. Vamos a verlas:
 
-Atributo
-
-Descripción
-
-public
-
-El campo es accesible desde todas las clases
-
-private
-
-El campo es accesible únicamente desde la propia clase
-
-final
-
-El campo no puede ser modificado y al definirse debe establecerse su valor.
+|Atributo|Descripción|
+|:--|:--|
+|public|El campo es accesible desde todas las clases|
+|private|El campo es accesible únicamente desde la propia clase|
+|final|El campo no puede ser modificado y al definirse debe establecerse su valor.|
 
 Vamos a ver algún ejemplo:
 
@@ -104,21 +86,11 @@ Es común que los campos se definan como privados para así sacar todo el potenc
 
 ## Control de acceso a constructores
 
-Constructor
-
-Descripción
-
-public
-
-Cualquier clase puede crear instancias de la clase que contenga un constructor público.
-
-protected
-
-Solamente las subclases de la clase que contiene un constructor protegido pueden crear instancias de la clase.
-
-private
-
-Ninguna clase puede crear instancias de una clase que tiene un constructor privado excepto la propia clase a través de alguno de sus métodos públicos.
+|Constructor|Descripción|
+|:--|:--|
+|public|Cualquier clase puede crear instancias de la clase que contenga un constructor público.|
+|protected|Solamente las subclases de la clase que contiene un constructor protegido pueden crear instancias de la clase.|
+|private|Ninguna clase puede crear instancias de una clase que tiene un constructor privado excepto la propia clase a través de alguno de sus métodos públicos.|
 
 El [patrón de diseño](https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o "Patrón de diseño") [singleton](https://es.wikipedia.org/wiki/Singleton#Java "Singleton") es un ejemplo a través del cual ver la utilidad de definir un constructor privado.
 
@@ -126,29 +98,14 @@ El [patrón de diseño](https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o
 
 A la hora de establecer el control de acceso a un método en el curso vamos a trabajar con public, private, protected, abstract y final.
 
-Método
+|Método|Descripción|
+|:--|:--|
+|public|El método es accesible desde la propia clase, el paquete al que pertenezca la clase, las subclases y el resto del mundo.|
+|protected|El método es accesible desde la propia clase, el paquete al que pertenezca la clase y las subclases.|
+|private|El método es accesible desde la propia clase.|
+|abstract|El método no está definido en esta clase sino que será definido en la clase que herede de la clase que contenga este método.|
+|final|El método no puede ser sobreescrito.|
 
-Descripción
-
-public
-
-El método es accesible desde la propia clase, el paquete al que pertenezca la clase, las subclases y el resto del mundo.
-
-protected
-
-El método es accesible desde la propia clase, el paquete al que pertenezca la clase y las subclases.
-
-private
-
-El método es accesible desde la propia clase.
-
-abstract
-
-El método no está definido en esta clase sino que será definido en la clase que herede de la clase que contenga este método.
-
-final
-
-El método no puede ser sobreescrito.
 
 Cuando un método es abstracto no se pone el bloque de código que va entre las llaves ({}) ni las propias llaves, esto tiene sentido porque el método en cuestión debe definirse en la clase que herede la clase que contenga el método abstracto.
 

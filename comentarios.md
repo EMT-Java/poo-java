@@ -1,7 +1,5 @@
 # Comentarios
 
-# Comentarios
-
 Los comentarios los introduciremos en nuestro código fuente para facilitar la lectura y comprensión posterior del código. La redacción de estos comentarios también van a facilitar en la posterior elaboración de la documentación del código.
 
 ¿Cómo se indica en un programa que algo es un comentario? Existen distintos modos de hacerlo:
