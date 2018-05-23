@@ -1,7 +1,5 @@
 # Taller con POO
 
-# Taller con POO
-
 Antes de ponernos a hacer nada vamos a definir nuestros problema.
 
 > La cooperativa CATEDUSC nos ha solicitado la elaboración de un programa informático para la gestión de sus talleres. En estos talleres se arreglan vehículos. Estos vehículos pueden ser coches o motos.

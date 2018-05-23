@@ -1,7 +1,5 @@
 # Identificación de las clases
 
-# Identificación de las clases
-
 Mi consejo para los primeros programas en los que vayáis a trabajar con programación orientada a objetos es que os imprimais el enunciado del problema y con un lápiz pongáis un recuadro sobre aquellos elementos que defináis como un objeto y subrayéis aquellos elementos que identifiquéis como atributos del mismo.
 
 

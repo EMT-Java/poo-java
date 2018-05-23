@@ -1,7 +1,5 @@
 # Bibliografía recomendada
 
-# Bibliografía recomendada
-
 Soy consciente de que quizás el curso no haya resuelto todas tus dudas acerca de la programación orientada a objetos y el lenguaje de programación Java puesto que se pretende que el mismo sea una introducción, por ello no querría dejar pasar la ocasión de recomendarte un par de libros que creo pueden resultarte de utilidad además de la gran cantidad de información existente en internet.
 
 El primero de los libros se titula "Piensa en Java" escrito por Bruce Eckel. Aunque la última edición data de 2006 sigue siendo un libro de referencia para quienes quieren iniciarse en la programación orientada a objetos y el lenguaje de programación Java. En su [página oficial (inglés)](http://www.mindviewinc.com/Books/TIJ4/ "Thinking in Java - Página oficial") podemos encontrar mas información sobre el mismo.

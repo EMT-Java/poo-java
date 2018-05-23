@@ -2,8 +2,8 @@
     "plugins": ["youtube", "accordion", "image-captions", "styled-blockquotes", "localized-footer", "quiz"],
     "language": "es",
     "variables": {
-        "title": "______________",
-        "author": "______________",
+        "title": "Programación orientada a objetos-Java",
+        "author": "Pablo Ruiz Soria",
         "collaborators": [
             { "name": "_________", "edited": "_____________" }
         ]

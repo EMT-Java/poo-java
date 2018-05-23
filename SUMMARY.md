@@ -2,7 +2,6 @@
 
 * [Introducción](README.md)
 
-<!--
 ____
 ### Hello world! 
 * [Hello world!](index0.md)
@@ -36,7 +35,7 @@ ____
 * [Algoritmos y estructuras de resolución de problemas sencillos](algoritmos_y_estructuras_de_resolucin_de_problemas_sencillos.md)
 * [Código utilizado en los ejemplos](cdigo_utilizado_en_los_ejemplos1.md)
 * [Tarea](tarea1.md)
--->
+
 
 ### Introducción a la POO 
 * [Introducción a la POO](index2.md)
@@ -57,7 +56,6 @@ ____
 * [Código utilizado en los ejemplos](cdigo_utilizado_en_los_ejemplos2.md)
 * [Tarea](tarea2.md)
 
-<!--
 ### Terminando 
 * [Terminando](index3.md)
 * [Taller con POO](taller_con_poo.md)
@@ -71,6 +69,6 @@ ____
 * [Código utilizado en los ejemplos](cdigo_utilizado_en_los_ejemplos3.md)
 * [Tarea](tarea3.md)
 * [Voluntario: Muestra tus proyectos](voluntario_muestra_tus_proyectos.md)
--->
+
 ___
 * [Créditos](crditos.md)
