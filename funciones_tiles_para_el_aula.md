@@ -12,5 +12,5 @@ Cuando hemos creado nuestro primer programa hemos utilizado una función que mue
 |Math.pow(base, exponente);|Eleva la base al exponente|
 |Math.sqrt(número);|Devuelve la raíz cuadrada positiva del número|
 
-En los siguientes capítulos haremos haciendo uso de estas útiles funciones que procuraré ir introduciendo poco a poco pero me ha parecido interesante mostrar un pequeño adelanto.
+En los siguientes capítulos haremos  uso de estas útiles funciones que procuraré ir introduciendo poco a poco pero me ha parecido interesante mostrar un pequeño adelanto.
 
